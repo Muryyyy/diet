@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+font-face{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+  background-image: url(img/img-body-superior.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family:  "Protest Riot", sans-serif;;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 260px;
+  background-color: rgba(71, 70, 70, 0.616);
+}
+
+ul{
+  margin-top: 200px;
+}
+
+.home {
+  font-size: 30px;
+  text-align: justify;
+  color: white;
+  
+}
+
+
+
+.home li{
+  
+  list-style-type: none; /* Remove o marcador de uma lista*/
+  
+  padding: 8px;
+  margin-left: 400px;
+}
+
+.home a{
+  color: white;
+  text-decoration: none;
+  
+  
+}
+
+
+
+main{
+  background-image: url(img/img-main.jpg);
+  margin-top: 780px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1200px;
+  width: auto;
+  margin-left: 0px;
+}
+
+h2{
+  position: absolute;
+  margin-top: 70px;
+  color: white;
+  margin-left: 32em;
+  font-size: 50px;
+}
+
+.imc{
+  background: white;
+  font-size: 50px;
+  margin-left: 30em;
+  position: absolute;
+  margin-top: 260px;
+  padding: 40px;
+  border-radius: 20px;
+  
+}
+
+
+
+
+#altura{
+  margin-left: 30px;
+}
+
+#peso{
+  margin-left: 60px;
+}
+
+#idade{
+  margin-left: 43px;
+}
+
+#calcular1{
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: 270px;
+}
+
+input{
+  font-size: 30px;
+}
+
+
+.sessao2{
+  background-image: url(img/img-sessao2.jpg);
+  background-size: 100%;
+  height: 1300px;
+  margin-top: 0px;
+}
