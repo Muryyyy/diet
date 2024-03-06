@@ -10,6 +10,7 @@ function calcular(){
    var resultadoElemento = document.getElementById('resultado');
   resultadoElemento.innerHTML = ` Seu Índice de Massa Corporal (IMC) é ${res}`;
 
+  
 var resultadomed = "";
 
   if (res < 18.5){
