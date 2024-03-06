@@ -7,8 +7,10 @@ function calcular(){
   var alt = Number(altura.value) / 100;
   var pes = Number(peso.value);
   var res = pes / (alt * alt)
+  res = res.toFixed(2); /*arredonda o vlaor para 2 casas decimais*/
    var resultadoElemento = document.getElementById('resultado');
   resultadoElemento.innerHTML = ` Seu Índice de Massa Corporal (IMC) é ${res}`;
+
 
   
 var resultadomed = "";
